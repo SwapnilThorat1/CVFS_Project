@@ -828,119 +828,26 @@ int main()
 
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-/* output = 
-Marvellous VFS : > man ropen
-ERROR : No manual entry available 
-
-Marvellous VFS : > man open
-Description : Used to open existing file
-Usage : open File_name mode
-
-Marvellous VFS : > open swapnil.txt 3
-File is successfully opened with file descriptor : 2
-
-Marvellous VFS : > write swapnil.txt
-Enter the data : 
-Hello swapnil sucefully complete LB Batch
-
-Marvellous VFS : > 
-ERROR : Command not found !!!
-
-Marvellous VFS : > write swapnil.txt
-Enter the data : 
-jay ganesh
-
-Marvellous VFS : > 
-ERROR : Command not found !!!
-
-Marvellous VFS : > la
-
-ERROR : Command not found  !!!
-
-Marvellous VFS : > ls
-
-File Name       Inode number    File size       Link count
-----------------------------------------------------------------
-swapnil.txt             1               51              1
-demo.txt                2               0               1
-------------------------------------------------------------------
-
-Marvellous VFS : > man stat
-Description : Used to display information of file
-Usage : stat File_name
-
-Marvellous VFS : > stat swapnil.txt
-
-----------------Statistical Information about file---------
-File name : swapnil.txt
-Inode Number 1
-File size : 51
-Actual File size : 1
-Link count : 1
-Reference count : 2
-File permission : Read & Write 
---------------------------------------------------
 
 
-Marvellous VFS : > man rm
-Desription : Used to delete the file
-Usage : rm File_Name
 
-Marvellous VFS : > rm demo.txt
 
-Marvellous VFS : > ls
 
-File Name       Inode number    File size       Link count
-----------------------------------------------------------------
-swapnil.txt             1               51              1
-demo.txt                2               0               1
-------------------------------------------------------------------
 
-Marvellous VFS : > rm demo.txt
 
-Marvellous VFS : > man rm
-Desription : Used to delete the file
-Usage : rm File_Name
 
-Marvellous VFS : > rm swapnil.txt
 
-Marvellous VFS : > ls
 
-File Name       Inode number    File size       Link count
-----------------------------------------------------------------
-swapnil.txt             1               51              1
-demo.txt                2               0               1
-------------------------------------------------------------------
-*//////////////////////////////////////////////////////////////////
-/*
 
-struct node;
-{
-    int data;
-    struct node *next;
-};
 
-typedef struct node NODE;
-typedef struct node * PNODE;
-typedef struct node ** PPNODE;
 
-////////////////////////////////////////
 
-tydef struct node
-{
-    int  data;
-    struct node *next;
-}NODE, *PNODE,**PPNODE;
 
-typedef struct node NODE;
-typedef struct node * PNODE;
-typedef struct node ** PPNODE;
 
-struct node
-{
-    int data;
-    struct node *next;
-}obj;
-append manje godane
 
- */
+
+
+
+
+
+
