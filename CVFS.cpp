@@ -1,3 +1,7 @@
+//Customize Virtual File System (CVFS)
+//Project
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -5,19 +9,19 @@
 #include<iostream>
 //#include<io.h>
 
-#define  MAXINODE 50  //kiti file geyachya titke node 
+#define  MAXINODE 50   
 
 #define READ 1       //permission ahet 
 #define WRITE 2      
 
-#define MAXFILESIZE 2048   //2kb per file size betel  sakto 2kb chy pudhe nako jau malloc titke getle apan
+#define MAXFILESIZE 2048   
 
-#define REGULAR 1       //purna project regular file 
+#define REGULAR 1        
 #define SPECIAL 2
 
 #define START 0
 #define CURRENT 1
-#define END 2             //kuthun lseek start hote tychasthi he 3 hashdefine            //user define micro 
+#define END 2                //user define micro 
 
 typedef struct superblock   //1 structure
 {
@@ -190,7 +194,7 @@ void CreateDILB()
        newn = (PINODE)malloc(sizeof(INODE));
 
        newn->LinkCount = 0;
-       newn->ReferenceCount = 0;    //ajun koni file ugadli nahi tymul 0
+       newn->ReferenceCount = 0;    
        newn->FileType = 0;
        newn->FileSize = 0;
 
